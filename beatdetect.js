@@ -45,6 +45,8 @@ FFT.BeatDetect = function(timeSize, sampleRate)
 	var				varCnt;
 
 	/**
+	 * TODO - add SOUND ENERGY mode back in.
+	 *
 	 * Create a BeatDetect object that is in SOUND_ENERGY mode.
 	 * <code>timeSize</code> and <code>sampleRate</code> will be set to 1024
 	 * and 44100, respectively, so that it is possible to switch into FREQ_ENERGY
